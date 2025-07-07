@@ -1,0 +1,11 @@
+.admin {
+  display: flex;
+  margin-left: 80px; /* Space for the sidebar */
+  padding: 20px;
+}
+@media (max-width: 768px){
+    .admin{
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
