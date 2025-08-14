@@ -1,0 +1,22 @@
+.relatedproducts {
+  padding: 40px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.relatedproducts h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.relatedproducts hr {
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.relatedproducts-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

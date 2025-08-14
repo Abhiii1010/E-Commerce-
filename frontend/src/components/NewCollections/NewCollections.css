@@ -1,0 +1,49 @@
+/* NewCollections.css */
+
+.new-collections {
+  padding: 50px 60px;
+  background-color: #fafafa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.new-collections h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 80px; /* Increased gap between items */
+  justify-items: center;
+}
+
+/* Padding inside each item card */
+.item {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .new-collections {
+    padding: 30px 20px;
+  }
+
+  .new-collections h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+  .collections {
+    gap: 55px; /* Slightly smaller gap on smaller screens */
+  }
+
+  .item {
+    padding: 15px;
+  }
+}
